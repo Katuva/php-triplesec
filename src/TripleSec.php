@@ -95,7 +95,6 @@ class TripleSec
 
     protected static function aesEncrypt(string $str, string $key, string $iv): string
     {
-        //return $iv . sodium_bin2hex(openssl_encrypt($str, 'aes-256-ctr', $key, OPENSSL_RAW_DATA, $iv));
         return $iv . openssl_encrypt($str, 'aes-256-ctr', $key, OPENSSL_RAW_DATA, $iv);
     }
 
