@@ -1,0 +1,28 @@
+{
+    "name": "katuva/php-triplesec",
+    "description": "PHP port of Keybase's triplesec v4 encryption",
+    "version": "1.0.0",
+    "homepage": "https://github.com/katuva/php-triplesec",
+    "keywords": [
+        "keybase",
+        "triplesec",
+        "encryption",
+        "cryptography"
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-scrypt": ">=1.4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wesley Twyman",
+            "email": "wesley@twyman.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Katuva\\": "src/"
+        }
+    }
+}
