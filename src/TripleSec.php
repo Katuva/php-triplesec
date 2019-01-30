@@ -22,8 +22,6 @@ class TripleSec
 
     const XSALSA20_IV_SIZE  = 24;
     const XSALSA20_KEY_SIZE = 32;
-    const TWOFISH_IV_SIZE   = 16;
-    CONST TWOFISH_KEY_SIZE  = 32;
     CONST AES_IV_SIZE       = 16;
     const AES_KEY_SIZE      = 32;
 
