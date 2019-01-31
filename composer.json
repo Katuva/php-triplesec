@@ -1,7 +1,7 @@
 {
     "name": "katuva/php-triplesec",
     "description": "PHP port of Keybase's triplesec v4 encryption",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "homepage": "https://github.com/katuva/php-triplesec",
     "keywords": [
         "keybase",
